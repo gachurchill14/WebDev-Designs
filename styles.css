@@ -1,0 +1,605 @@
+/*defaults*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../starting/Resources/font/PTSansandPlayfairDisplay/PlayfairDisplay/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSans;
+    src: url(../starting/Resources/font/PTSansandPlayfairDisplay/PTSans/PT_Sans-Web-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url(../starting/Resources/font/CinzelandFaunaOne/Cinzel/Cinzel-Black.ttf);
+}
+
+@font-face {
+    font-family: FaunaOne;
+    src: url(../starting/Resources/font/CinzelandFaunaOne/FaunaOne/FaunaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bree;
+    src: url(../starting/Resources/font/BreeandAlegreya/Bree/BreeSerif-Regular.ttf)
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(../starting/Resources/font/BreeandAlegreya/Alegreya/Alegreya-Regular.ttf);
+}
+
+@font-face {
+    font-family: Arvo;
+    src: url(../starting/Resources/font/ArvoandLato/Arvo/Arvo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(../starting/Resources/font/ArvoandLato/Lato/Lato-Regular.ttf);
+}
+/*Body border*/
+
+body {
+   border-left: 20px solid #3218A3;
+   border-right: 20px solid #3218A3;
+}
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #3218A3;
+    left: 0;
+    right: 0;
+    height: 20px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+
+/*Nav Bar*/
+nav {
+    box-sizing: border-box;
+    background-color: #F0DE54;
+    
+    max-width: 100%;
+    max-height: 100%;
+    padding: 30px 50px;
+    position: relative;
+    margin-top: 20px;
+    
+}
+ul {
+    
+}
+.NavBar li {
+    display: inline;
+    background-color: #F0DE54;
+    color: #3218A3;
+    padding: 30px 50px;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    border: 1px solid #A190F0;
+    
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #3218A3;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #A6A074;
+    text-decoration: underline;
+}
+
+/*Hero*/
+
+header {
+    background-image: url(Images/Unicorn.jpg);
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    position: relative;
+    box-sizing:border-box;
+}
+
+header h1{
+    font-family: "Permanent Marker", Overpass, sans-serif;
+    font-size: 70px;
+    color: #A61300;
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    }
+
+header h2{
+    text-align:center;
+    font-size: 50px;
+    color: black;
+    font-family: Overpass, Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*All Section Titles*/
+
+.sectiontitle {
+    background-color: #3218A3;
+    width: 100%;
+    max-height: 400px;
+    padding: 50px 0;
+}
+
+.SectionHead {
+    text-align: center;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: #A6A074;
+}
+
+.SectionSub {
+    text-align: center;
+    font-size: 30px;
+    font-family: Raleway;
+    font-weight: 300;
+    color: #A6A074;
+}
+
+
+/*Colour Section*/
+
+
+
+.elementhead h3 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.libottom {
+    padding-bottom: 100px;
+}
+
+.colour1 {
+    border: #FBDBC1 solid 20px;
+    background-color: #E06D10;
+    width: 100%
+    height: fit-content;
+    padding: 100px;
+}
+
+.colour1 h3 {
+    background-color: #8E4C9E;
+    color: #D6E9F5;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.colour1 p {
+    background-color: #8E4C9E;
+    color: #D6E9F5;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.colour1 li {
+    background-color: #8E4C9E;
+    color: #D6E9F5;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+
+.colour2 {
+    border: #164249
+    solid 20px;
+    background-color: #D6E9F5;
+    width: 100%
+    height: fit-content;
+    padding: 100px;
+}
+
+.colour2 h3 {
+    background-color: #F1F3F8;
+    color: #4E5255;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.colour2 p {
+    background-color: #F1F3F8;
+    color: #4E5255;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.colour2 li {
+    background-color: #F1F3F8;
+    color: #4E5255;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+
+.colour3 {
+    border: #C9A2D2 solid 20px;
+    background-color: #79C698;
+    width: 100%;
+    height: fit-content;
+    padding: 100px;
+}
+
+.colour3 h3 {
+    background-color: #F7F1F8;
+    color: #0F2417;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.colour3 p {
+    background-color: #F7F1F8;
+    color: #0F2417;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.colour3 li {
+    background-color: #F7F1F8;
+    color: #0F2417;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+
+.colour4 {
+    border: #D6E9F5 solid 20px;
+    background-color: #EC93A2;
+    width: 100%
+    height: fit-content;
+    padding: 100px;
+}
+
+.colour4 h3 {
+    background-color: #E0E3F0;
+    color: #000000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.colour4 p {
+    background-color: #E0E3F0;
+    color: #000000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+.colour4 li {
+    background-color: #E0E3F0;
+    color: #000000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+
+
+/*Font Section*/
+
+.font1 {
+    border: 10px solid #F0DE54;
+    background-color: #A190F0;
+    width: 100%;
+    padding: 100px;
+}
+
+.font1 h3 {
+    font-family: PTSans;
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.font1 p {
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.font2 {
+    border: 10px solid #F0DE54;
+    background-color: #A190F0;
+    width: 100%;
+    padding: 100px;
+}
+
+.font2 h3 {
+    font-family: Cinzel;
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.font2 p {
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-family: FaunaOne;
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.font3 {
+    border: 10px solid #F0DE54;
+    background-color: #A190F0;
+    width: 100%;
+    padding: 100px;
+}
+
+.font3 h3 {
+    font-family: Bree;
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.font3 p {
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-family: Alegreya;
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.font4 {
+    border: 10px solid #F0DE54;
+    background-color: #A190F0;
+    width: 100%;
+    padding: 100px;
+}
+
+.font4 h3 {
+    font-family: Arvo;
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.font4 p {
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 20px;
+
+    
+}
+.Fonts li {
+    background-color: #3218A3;
+    color: #FFEC5C;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    width: 100%;
+}
+.font1primary {
+    font-family: PTSans;
+}
+.font1secondary {
+    font-family: PlayfairDisplay;
+    padding-bottom: 100px;
+}
+.font2primary {
+    font-family: Cinzel;
+}
+.font2secondary {
+    font-family: FaunaOne;
+    padding-bottom: 100px;
+}
+.font3primary {
+    font-family: Bree;
+}
+.font3secondary {
+    font-family: Alegreya;
+    padding-bottom: 100px;
+}
+.font4primary {
+    font-family: Arvo;
+}
+.font4secondary {
+    font-family: Lato;
+    padding-bottom: 100px;
+}
+
+
+
+/*Page Elements Section*/
+.PageElements h3 {
+    background-color: #FFEC5C;
+    color: #3218A3;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.headingh1 {
+    border: 50px solid #3218A3;
+    background-color: #A6A074;
+    width: 100%;
+    padding: 100px;
+}
+
+.headingh1 h1 {
+    background-color: #FFEC5C;
+    color: #3218A3;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 70px;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+
+.headingh2 {
+    border: 50px solid #3218A3;
+    background-color: #A6A074;
+    width: 100%;
+    padding: 100px;
+}
+
+.headingh2 h2 {
+    background-color: #FFEC5C;
+    color: #3218A3;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 50px;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.headingh3 {
+    border: 50px solid #3218A3;
+    background-color: #A6A074;
+    width: 100%;
+    padding: 100px;
+}
+
+/*.PageElements h3 {
+    background-color: #FFEC5C;
+    color: #3218A3;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+}*/
+
+.headingh3 #eg  {
+    background-color: #FFEC5C;
+    color: #3218A3;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 0;
+}
+
+.headingh4 {
+    border: 50px solid #3218A3;
+    background-color: #A6A074;
+    width: 100%;
+    padding: 100px;
+}
+
+.headingh4 h4 {
+    background-color: #FFEC5C;
+    color: #3218A3;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    list-style: none;
+    width: 100%;
+    padding-bottom: 100px;
+}
